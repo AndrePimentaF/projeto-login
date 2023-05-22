@@ -1,11 +1,13 @@
 @charset "UTF-8";
 
 @media screen and (min-width: 768px) and (max-width: 992px) {
+    /*config tablet*/
     body{
         background-image: linear-gradient(to top, #000000, #897F3B);
     }
     section#login{
         width:80vw;
+        height:280px;
     }
     section#login > article#img{
         float: left;
@@ -18,12 +20,13 @@
     }
 }
 
-@media screen and (min-width: 992px) {
+@media screen and (min-width: 992px) { /*Config Desktop*/
     body{
         background-image: linear-gradient(to top, #000000, #897F3B);
     }
     section#login{
         width:950px;
+        height:350px;
     }
     section#login > article#img{
         float:right;
@@ -39,6 +42,7 @@
         font-size: 2em;
     }
     article#form > p{
-        font-size: 1.2em;
+        font-size: 1em;
+        margin: 20px 0px;
     }
 }
